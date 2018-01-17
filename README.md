@@ -1,0 +1,2 @@
+# website of XCT, A decentralized data exchange platform
+## Dedicated to identifying and re-assessing the value of data of SMEs, and to creating a distributed data exchange platform to help SMEs translate their data into assets and to exchange such data in a fast, effective and legitimate way

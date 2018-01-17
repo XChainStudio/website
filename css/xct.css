@@ -1,0 +1,2550 @@
+body {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #666666;
+}
+
+/*navigation*/
+.navbar .container {
+    width: 85%;
+    margin-left: 10%;
+}
+#menu-nav {
+    height: 90px;
+    background-color: white;
+    vertical-align: middle;
+}
+
+.navbar-brand {
+    width: 180px;
+    height: 90px;
+    text-align: center;
+}
+
+.navbar-brand img {
+    display: inline;
+    height: 70px;
+}
+
+.navbar-brand span {
+    font-size: 32px;
+    color: #5C7A4E;
+}
+
+.navbar-collapse ul {
+    padding-top: 5px;
+    padding-left: 12%;
+    width: 80%;
+    height: 80px;
+    float: right;
+}
+
+.navbar-collapse ul li {
+    width: 125px;
+    margin-top: 20px;
+    margin-right: 5%;
+    text-align: center;
+    font-size: 22px;
+    color: #5C7A4E;
+}
+
+.navbar-collapse ul li a {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#nav-home, #nav-about, #nav-plan, #nav-team {
+    background: none;
+    letter-spacing: 2px;
+    color: #5C7A4E;
+    font-weight: bold;
+}
+
+#nav-lang {
+    color: #5C7A4E;
+    font-size: 16px;
+    font-weight: bold;
+    /*display: none;*/
+}
+
+#nav-home:hover, #nav-about:hover, #nav-plan:hover, #nav-team:hover {
+    padding-bottom: 2px;
+    border-bottom: 2px solid #5C7A4E;
+}
+
+/*#nav-home.chosen, #nav-about.chosen, #nav-plan.chosen, #nav-team.chosen {
+    padding-bottom: 2px;
+    border-bottom: 2px solid #5C7A4E;
+}*/
+
+/*home-page*/
+.carousel img {
+    padding-bottom: 100px;
+}
+
+.carousel {
+    margin-top: 40px;
+}
+
+.carousel-caption {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 80%;
+    padding-left: 10%;
+}
+
+#notice-ban {
+    margin: 0;
+    padding-top:45px;
+    padding-bottom: 30px;
+    font-size: 28px;
+    visibility: hidden;
+}
+
+.carousel-caption h1 {
+    margin: 60px 0;
+    padding: 0;
+    font-size: 54px;
+    font-weight: bold;
+}
+
+.carousel-caption h2 {
+    margin-top: 20px;
+    margin-bottom: 80px;
+    padding: 0;
+    font-size: 36px;
+}
+
+.carousel-caption span {
+    width: 780px;
+    margin: auto;
+    font-size: 24px;
+    text-align: left;
+    display: block;
+}
+
+.carousel .float-left {
+    padding-right: 525px;
+}
+
+.carousel .xct-btn {
+    margin-top: 140px;
+    padding-left: 20px;
+}
+
+.btn-primary {
+    border: 0;
+}
+
+#whitepaper, #apply {
+    width: 180px;
+    height: 65px;
+    margin: 0 40px;
+    font-size: 30px;
+    background-color: #5C7A4E;
+}
+
+#whitepaper {
+    letter-spacing: 18px;
+    padding-left: 24px;
+}
+
+#apply {
+    display: none;
+    letter-spacing: 35px;
+    padding-left: 40px;
+}
+
+ /* common parts */
+.subtitle {
+    color: #5C7A4E;
+    font-size: 36px;
+    padding: 25px 60px;
+}
+
+.subtitle span {
+    border-bottom: 2px solid #5C7A4E;
+    padding-bottom: 3px;
+}
+
+/*about-page*/
+.about-page {
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.about-page .row {
+    margin-top: 100px;
+    margin-left: 0;
+}
+
+.about-page .about-bref {
+    margin: 0;
+    padding: 0;
+}
+
+.about-page .about-title-left {
+    padding-left: 35px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #666666;
+}
+
+.about-page .center{
+    padding: 80px 0;
+}
+
+.about-page .center img{
+    width: 100%
+}
+
+.about-page .left-part {
+    padding: 100px 0 0 110px;
+}
+
+.about-page .left-part img {
+    margin: 0;
+    padding: 0;
+    width: 100%
+}
+
+.about-page .left-part ul {
+    margin: 0;
+    padding-left: 50px;
+    padding-bottom: 100px;
+}
+
+.about-page .left-part ul li {
+    padding-left: 5px;
+    font-size: 20px;
+}
+
+.about-page .right-part {
+    padding: 50px 110px 0 0;
+    float: right;
+}
+
+.about-page .right-part img {
+    margin: 0;
+    padding: 0;
+    width: 100%
+}
+
+.about-page .about-title-right {
+    padding-right: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #666666;
+}
+
+.about-page .right-part ul {
+    float: right;
+    padding-right: 30px;
+    padding-bottom: 40px;
+}
+
+.about-page .right-part ul li {
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.about-page .about-title-left:hover, .about-page .about-title-right:hover {
+    /*color: #5C7A4E;*/
+    color: #000000;
+    text-decoration: underline;
+}
+
+/*scenario-page*/
+.scenario-page {
+    margin: 0 auto;
+    padding: 100px 0;
+    background: url(../images/bg03.png) no-repeat;
+    background-position: 0 389px;
+}
+
+.scenario-page .scenario-icons {
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.scenario-page .icon1, .scenario-page .icon3 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.scenario-page .icon1 {
+    padding-top: 60px;
+}
+
+.scenario-page .scenario-icons img {
+    width: 60%
+}
+
+.scenario-page .scenario-info {
+    padding: 0;
+    margin: 0;
+}
+
+.scenario-page .info {
+    padding: 0 20px 0 75px;
+}
+
+.scenario-page .scenario-bref {
+    display: block;
+    margin-top: 60px;
+    padding-bottom: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.scenario-page .scenario-detail {
+    font-size: 18px;
+}
+
+/*route-page*/
+.route-page {
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.route-page img {
+    padding-top: 100px;
+    width: 100%;
+}
+
+.route-page .routes {
+    text-align: center;
+}
+
+.route-page .routes p {
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+/*team-page*/
+.team-page {
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.team-page .row {
+    padding-top: 20px;
+}
+
+.team-page .team-mem {
+    height: 530px;
+}
+
+.team-page .icon {
+    margin-top: 60px;
+}
+
+.team-page .icon img {
+    width: 100%;
+    border-radius:20px
+}
+
+.team-page .name {
+    padding: 15px 0;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.team-page .title {
+    font-size: 24px;
+    letter-spacing: 3px;
+    /*font-style: italic;*/
+    text-align: center;
+}
+
+.team-page .bref-bio {
+    padding: 15px 20px;
+    font-size: 14px;
+}
+
+/*advisor-page*/
+.advisor-page {
+    margin: 0 auto;
+    padding: 80px 0;
+}
+
+.advisor-page .row {
+    padding-top: 20px;
+}
+
+.advisor-page .team-mem {
+    height: 650px;
+}
+
+.advisor-page .icon {
+    margin-top: 60px;
+}
+
+.advisor-page .icon img {
+    width: 100%;
+    border-radius:20px
+}
+
+.advisor-page .name {
+    padding: 15px 0;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.advisor-page .title {
+    font-size: 24px;
+    letter-spacing: 3px;
+    /*font-style: italic;*/
+    text-align: center;
+}
+
+.advisor-page .bref-bio {
+    padding: 15px 20px;
+    font-size: 14px;
+    height: 250px;
+    overflow: scroll;
+}
+
+/*community-page*/
+.community-page {
+    margin-top: 100px auto;
+    padding: 100px 0 60px 0;
+    background: url(../images/bg02.png) no-repeat; 
+    background-size:80%;
+    background-position:center center;
+    text-align: center;
+}
+
+.community-page .subscribe {
+    margin: 0;
+    padding: 30px 0 40px 0;
+}
+
+.community-page .subscribe .row {
+    margin: 0 30px;
+    padding: 0 20px;
+}
+
+.community-page .subscribe .input-group {
+    padding: 20px 0;
+    height: 60px;
+}
+
+.community-page .form-control {
+    height: 60px;
+}
+
+.community-page .input-group-btn .sub-btn {
+    width: 120px;
+    height: 100%;
+    padding-left: 18px;
+    letter-spacing: 10px;
+    font-size: 24px;
+}
+
+.community-page .join {
+    padding: 20px 0;
+    font-size: 28px;
+    letter-spacing: 4px;
+}
+
+.community-page .icons {
+    padding-top: 25px;
+    padding-bottom: 340px;
+}
+
+.community-page img {
+    width: 70px;
+    margin: 0 25px;
+}
+
+@media only screen and (min-width:1200px)  and (max-width: 1499px){
+    .navbar .container {
+        /*margin-left: 50px;*/
+    }
+
+    /*navigation*/
+    #menu-nav {
+        height: 90px;
+    }
+
+    .navbar-brand {
+        padding-top: 15px;
+        width: 180px;
+        height: 80px;
+        text-align: center;
+    }
+
+    .navbar-brand img {
+        display: inline;
+        height: 60px;
+    }
+
+    .navbar-brand span {
+        font-size: 32px;
+        color: #5C7A4E;
+    }
+
+    .navbar-collapse ul {
+        height: 60px;
+        padding-top: 25px;
+    }
+
+    .navbar-collapse ul li {
+        margin-top: 0;
+        margin-right: 3%;
+        padding: 0;
+        width: 110px;
+        font-size: 20px;
+    }
+
+    /*home-page*/
+    .carousel img {
+        padding-bottom: 100px;
+    }
+
+    #notice-ban {
+        margin: 0;
+        padding-top:45px;
+        padding-bottom: 30px;
+        font-size: 28px;
+    }
+
+    .carousel-caption {
+        padding: 0;
+        width: 82%;
+        padding-left: 9%;
+    }
+
+    .carousel-caption h1 {
+        margin: 60px 0;
+        padding: 0;
+        font-size: 48px;
+        font-weight: bold;
+    }
+
+    .carousel-caption h2 {
+        margin-top: 20px;
+        margin-bottom: 60px;
+        padding: 0;
+        font-size: 32px;
+    }
+
+    .carousel-caption span {
+        width: 640px;
+        margin: auto;
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .carousel .xct-btn {
+        margin-top: 125px;
+        padding: 0;
+    }
+
+    #whitepaper{
+        margin: 0;
+        padding: 12px 0 0 12px;
+        letter-spacing: 18px;
+        width: 200px;
+        height: 65px;
+        font-size: 28px;
+        background-color: #5C7A4E;
+    }
+
+    #apply {
+        display: none;
+    }
+
+    /* common parts */
+    .subtitle {
+        color: #5C7A4E;
+        font-size: 32px;
+        padding: 25px 60px;
+    }
+
+    .subtitle span {
+        border-bottom: 2px solid #5C7A4E;
+        padding-bottom: 3px;
+    }
+
+    /*about-page*/
+    .about-page {
+        margin: 0 auto;
+        padding: 100px 0;
+    }
+
+    .about-page .row {
+        margin-top: 80px;
+        margin-left: 0;
+    }
+
+    .about-page .about-bref {
+        margin: 0;
+        padding: 0;
+    }
+
+    .about-page .about-title-left {
+        padding-left: 40px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .about-page .center{
+        padding: 60px 0;
+    }
+
+    .about-page .center img{
+        width: 100%
+    }
+
+    .about-page .left-part {
+        padding: 80px 0 0 70px;
+    }
+
+    .about-page .left-part img {
+        margin: 0;
+        padding: 0;
+        width: 100%
+    }
+
+    .about-page .left-part ul {
+        margin: 0;
+        padding-left: 55px;
+        padding-bottom: 110px;
+    }
+
+    .about-page .left-part ul li {
+        padding-left: 5px;
+        font-size: 20px;
+    }
+
+    .about-page .right-part {
+        padding: 42px 80px 0 0;
+        float: right;
+    }
+
+    .about-page .about-title-right {
+        padding-right: 45px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .about-page .right-part ul {
+        float: right;
+        padding-right: 45px;
+        padding-bottom: 50px;
+    }
+
+    .about-page .right-part ul li {
+        padding-right: 10px;
+        font-size: 20px;
+    }
+
+    /*scenario-page*/
+    .scenario-page {
+        margin: 0 auto;
+        padding: 100px 0;
+        background: url(../images/bg031.png) no-repeat;
+        background-position: 0 383px;
+    }
+
+    .scenario-page .scenario-icons {
+        margin-top: 100px;
+        margin-left: 50px;
+    }
+
+    .scenario-page .icon1, .scenario-page .icon3 {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .scenario-page .icon1 {
+        padding-top: 60px;
+    }
+
+    .scenario-page .scenario-icons img {
+        width: 60%
+    }
+
+    .scenario-page .scenario-info {
+        padding: 0;
+        margin: 0;
+    }
+
+    .scenario-page .info {
+        padding: 0 30px 0 60px;
+    }
+
+    .scenario-page .scenario-bref {
+        display: block;
+        margin-top: 60px;
+        padding-bottom: 20px;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .scenario-page .scenario-detail {
+        font-size: 18px;
+    }
+
+    /*route-page*/
+    .route-page {
+        margin: 0 auto;
+        padding: 100px 0;
+    }
+
+    .route-page img {
+        width: 100%;
+        padding-top: 80px;
+    }
+
+    .route-page .routes {
+        text-align: center;
+    }
+
+    .route-page .routes p {
+        padding-top: 25px;
+        font-size: 28px;
+    }
+
+    /*community-page*/
+    .community-page {
+        margin-top: 100px auto;
+        padding: 110px 0 60px 0;
+        background: url(../images/bg02.png) no-repeat; 
+        background-size:80%;
+        background-position:center center;
+        text-align: center;
+    }
+
+    .community-page .subscribe {
+        margin: 0;
+        padding: 30px 0 40px 0;
+    }
+
+    .community-page .subscribe .row {
+        margin: 0 30px;
+        padding: 0 20px;
+    }
+
+    .community-page .subscribe .input-group {
+        padding: 20px 0;
+        height: 60px;
+    }
+
+    .community-page .form-control {
+        height: 60px;
+    }
+
+    .community-page .input-group-btn .sub-btn {
+        width: 120px;
+        height: 100%;
+        padding-left: 18px;
+        letter-spacing: 10px;
+        font-size: 24px;
+    }
+
+    .community-page .join {
+        padding: 20px 0;
+        font-size: 28px;
+        letter-spacing: 4px;
+    }
+
+    .community-page .icons {
+        padding-top: 25px;
+        padding-bottom: 330px;
+    }
+
+    .community-page img {
+        width: 70px;
+        margin: 0 25px;
+    }
+
+    /*TODO*/
+}
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+    body {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+
+    /*navigation*/
+    #menu-nav {
+        height: 80px;
+    }
+
+    .navbar-brand {
+        padding-top: 12px;
+        width: 180px;
+        height: 80px;
+        text-align: center;
+    }
+
+    .navbar-brand img {
+        display: inline;
+        height: 60px;
+    }
+
+    .navbar-brand span {
+        font-size: 28px;
+        color: #5C7A4E;
+    }
+
+    .navbar-collapse ul {
+        height: 60px;
+        padding-top: 20px;
+    }
+
+    .navbar-collapse ul li {
+        margin-top: 0;
+        margin-right: 1%;
+        padding: 0;
+        width: 105px;
+        font-size: 18px;
+    }
+
+    /*home-page*/
+    .carousel img {
+        padding-bottom: 80px;
+    }
+
+    #notice-ban {
+        margin: 0;
+        padding-top:35px;
+        padding-bottom: 20px;
+        font-size: 24px;
+    }
+
+    .carousel-caption {
+        padding: 0;
+        width: 82%;
+        padding-left: 9%;
+    }
+
+    .carousel-caption h1 {
+        margin: 30px 0;
+        padding: 0;
+        font-size: 38px;
+        font-weight: bold;
+    }
+
+    .carousel-caption h2 {
+        margin-top: 20px;
+        margin-bottom: 45px;
+        padding: 0;
+        font-size: 28px;
+    }
+
+    .carousel-caption span {
+        padding-left: 10px;
+        width: 650px;
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .carousel .xct-btn {
+        margin-top: 130px;
+        padding: 0;
+    }
+
+    #whitepaper{
+        margin: 0;
+        padding: 12px 0 0 12px;
+        letter-spacing: 18px;
+        width: 200px;
+        height: 65px;
+        font-size: 28px;
+        background-color: #5C7A4E;
+    }
+
+    #apply {
+        display: none;
+    }
+
+    /* common parts */
+    .subtitle {
+        color: #5C7A4E;
+        font-size: 32px;
+        padding: 25px 60px;
+    }
+
+    .subtitle span {
+        border-bottom: 2px solid #5C7A4E;
+        padding-bottom: 3px;
+    }
+
+    /*about-page*/
+    .about-page {
+        margin: 0 auto;
+        padding: 80px 0;
+    }
+
+    .about-page .row {
+        margin-top: 60px;
+        margin-left: 0;
+    }
+
+    .about-page .about-bref {
+        margin: 0;
+        padding: 0;
+    }
+
+    .about-page .about-title-left {
+        padding-left: 25px;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .about-page .center{
+        padding: 45px 0;
+    }
+
+    .about-page .center img{
+        width: 100%
+    }
+
+    .about-page .left-part {
+        padding: 50px 0 0 70px;
+    }
+
+    .about-page .left-part img {
+        margin: 0;
+        padding: 0;
+        width: 100%
+    }
+
+    .about-page .left-part ul {
+        margin: 0;
+        padding-left: 35px;
+        padding-bottom: 85px;
+    }
+
+    .about-page .left-part ul li {
+        padding-left: 0;
+        font-size: 18px;
+    }
+
+    .about-page .right-part {
+        padding: 25px 70px 0 0;
+        float: right;
+    }
+
+    .about-page .about-title-right {
+        padding-right: 35px;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .about-page .right-part ul {
+        /*float: right;*/
+        padding-right: 40px;
+        padding-bottom: 50px;
+        text-align: right;
+    }
+
+    .about-page .right-part ul li {
+        width: 72px;
+        padding-right: 0;
+        font-size: 18px;
+    }
+
+    /*scenario-page*/
+    .scenario-page {
+        margin: 0 auto;
+        padding: 80px 0;
+        background: url(../images/bg031.png) no-repeat;
+        background-position: 0 324px;
+    }
+
+    .scenario-page .scenario-icons {
+        margin-top: 80px;
+        margin-left: 16px;
+    }
+
+    .scenario-page .icon1, .scenario-page .icon3 {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .scenario-page .icon1 {
+        padding-top: 45px;
+    }
+
+    .scenario-page .scenario-icons img {
+        width: 60%
+    }
+
+    .scenario-page .scenario-info {
+        padding: 0;
+        margin: 0;
+    }
+
+    .scenario-page .info {
+        padding: 0 20px 0 45px;
+    }
+
+    .scenario-page .scenario-bref {
+        display: block;
+        margin-top: 45px;
+        padding-bottom: 15px;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .scenario-page .scenario-detail {
+        font-size: 17px;
+    }
+
+    /*route-page*/
+    .route-page {
+        margin: 0 auto;
+        padding: 80px 0;
+    }
+
+    .route-page img {
+        width: 100%;
+        padding-top: 80px;
+    }
+
+    .route-page .routes {
+        text-align: center;
+    }
+
+    .route-page .routes p {
+        padding-top: 20px;
+        font-size: 24px;
+    }
+
+    /*community-page*/
+    .community-page {
+        margin-top: 80px auto;
+        padding: 80px 0;
+        background: url(../images/bg02.png) no-repeat; 
+        background-size:80%;
+        background-position:center center;
+        text-align: center;
+    }
+
+    .community-page .subscribe {
+        margin: 0;
+        padding: 30px 0 40px 0;
+    }
+
+    .community-page .subscribe .row {
+        margin: 0 20px;
+        padding: 0 10px;
+    }
+
+    .community-page .subscribe .input-group {
+        padding: 10px 0;
+        height: 60px;
+    }
+
+    .community-page .form-control {
+        height: 60px;
+    }
+
+    .community-page .input-group-btn .sub-btn {
+        width: 120px;
+        height: 100%;
+        padding-left: 18px;
+        letter-spacing: 10px;
+        font-size: 24px;
+    }
+
+    .community-page .join {
+        padding: 10px 0;
+        font-size: 24px;
+        letter-spacing: 2px;
+    }
+
+    .community-page .icons {
+        padding-top: 25px;
+        padding-bottom: 260px;
+    }
+
+    .community-page img {
+        width: 65px;
+        margin: 0 15px;
+    }
+
+    /*TODO*/
+}
+@media only screen and (min-width: 992px) and (max-width: 1023px) {
+    body {
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+    /*navigation*/
+    .navbar .container {
+        width: 120%;
+        margin-left: 5%;
+        padding-right: 0;
+    }
+    #menu-nav {
+        height: 60px;
+    }
+
+    .navbar-brand {
+        padding-top: 8px;
+        width: 160px;
+        height: 60px;
+        text-align: center;
+    }
+
+    .navbar-brand img {
+        display: inline;
+        height: 50px;
+    }
+
+    .navbar-brand span {
+        font-size: 24px;
+        color: #5C7A4E;
+    }
+
+    .navbar-collapse ul{
+        height: 60px;
+        padding-left: 1%;
+    }
+
+    .navbar-collapse ul li {
+        margin-top: 0;
+        margin-right: 2%;
+        width: 90px;
+        font-size: 17px;
+    }
+
+    /*home-page*/
+    .carousel img {
+        padding-bottom: 60px;
+    }
+
+    #notice-ban {
+        margin: 0;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        font-size: 20px;
+    }
+
+    .carousel-caption {
+        padding: 0;
+        width: 84%;
+        padding-left: 8%;
+    }
+
+    .carousel-caption h1 {
+        margin: 15px 0;
+        padding: 0;
+        font-size: 32px;
+    }
+
+    .carousel-caption h2 {
+        margin-top: 20px;
+        margin-bottom: 45px;
+        padding: 0;
+        font-size: 26px;
+    }
+
+    .carousel-caption span {
+        padding-left: 10px;
+        width: 600px;
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .carousel .xct-btn {
+        margin-top: 120px;
+        padding: 0;
+    }
+
+    #whitepaper{
+        margin: 0;
+        padding: 12px 0 0 12px;
+        letter-spacing: 16px;
+        width: 160px;
+        height: 60px;
+        font-size: 24px;
+        background-color: #5C7A4E;
+    }
+
+    #apply {
+        display: none;
+    }
+
+    /* common parts */
+    .subtitle {
+        color: #5C7A4E;
+        font-size: 26px;
+        padding: 25px 40px;
+    }
+
+    .subtitle span {
+        border-bottom: 2px solid #5C7A4E;
+        padding-bottom: 3px;
+    }
+
+    /*about-page*/
+    .about-page {
+        margin: 0 auto;
+        padding: 60px 0;
+    }
+
+    .about-page .row {
+        margin-top: 45px;
+        margin-left: 0;
+    }
+
+    .about-page .about-bref {
+        margin: 0;
+        padding: 0;
+    }
+
+    .about-page .about-title-left {
+        padding-left: 20px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .about-page .center{
+        padding: 30px 0;
+    }
+
+    .about-page .center img{
+        width: 100%
+    }
+
+    .about-page .left-part {
+        padding: 50px 0 0 80px;
+    }
+
+    .about-page .left-part img {
+        margin: 0;
+        padding: 0;
+        width: 100%
+    }
+
+    .about-page .left-part ul {
+        margin: 0;
+        padding-left: 30px;
+        padding-bottom: 80px;
+    }
+
+    .about-page .left-part ul li {
+        padding-left: 0;
+        font-size: 16px;
+    }
+
+    .about-page .right-part {
+        padding: 25px 80px 0 0;
+        float: right;
+    }
+
+    .about-page .about-title-right {
+        padding-right: 40px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .about-page .right-part ul {
+        padding-right: 35px;
+        padding-bottom: 45px;
+    }
+
+    .about-page .right-part ul li {
+        padding-right: 0;
+        font-size: 16px;
+    }
+
+    /*scenario-page*/
+    .scenario-page {
+        margin: 0 auto;
+        padding: 60px 0;
+        background: url(../images/bg031.png) no-repeat;
+        background-position: 0 276px;
+    }
+
+    .scenario-page .scenario-icons {
+        margin-top: 60px;
+        margin-left: 16px;
+    }
+
+    .scenario-page .icon1, .scenario-page .icon3 {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .scenario-page .icon1 {
+        padding-top: 45px;
+    }
+
+    .scenario-page .scenario-icons img {
+        width: 60%
+    }
+
+    .scenario-page .scenario-info {
+        padding: 0;
+        margin: 0;
+    }
+
+    .scenario-page .info {
+        padding: 0 20px 0 45px;
+    }
+
+    .scenario-page .scenario-bref {
+        display: block;
+        margin-top: 30px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .scenario-page .scenario-detail {
+        font-size: 16px;
+    }
+
+    /*route-page*/
+    .route-page {
+        margin: 0 auto;
+        padding: 60px 0;
+    }
+
+    .route-page img {
+        width: 100%;
+        padding-top: 60px;
+    }
+
+    .route-page .routes {
+        text-align: center;
+    }
+
+    .route-page .routes p {
+        padding-top: 15px;
+        font-size: 22px;
+    }
+
+    /*community-page*/
+    .community-page {
+        margin: 60px auto;
+        padding: 90px 0;
+        background: url(../images/bg02.png) no-repeat; 
+        background-size:70%;
+        background-position:center center;
+        text-align: center;
+    }
+
+    .community-page .subscribe {
+        margin: 0;
+        padding: 10px 0 10px 0;
+    }
+
+    .community-page .subscribe .input-group {
+        padding: 20px 20px 0 20px;
+        height: 60px;
+    }
+
+    .community-page .form-control {
+        height: 60px;
+    }
+
+    .community-page .input-group-btn .sub-btn {
+        width: 120px;
+        height: 100%;
+        padding-left: 18px;
+        letter-spacing: 10px;
+        font-size: 24px;
+    }
+
+    .community-page .join {
+        padding-bottom: 10px;
+        font-size: 24px;
+        letter-spacing: 2px;
+    }
+
+    .community-page .icons {
+        padding-top: 10px;
+        padding-bottom: 220px;
+    }
+
+    .community-page img {
+        width: 60px;
+        margin: 0 15px;
+    }
+
+    /*TODO*/
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    body {
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+    /*navigation*/
+    .navbar .container {
+        width: 120%;
+        margin-left: 5%;
+        padding-right: 0;
+    }
+    #menu-nav {
+        height: 60px;
+    }
+
+    .navbar-brand {
+        padding-top: 8px;
+        width: 160px;
+        height: 60px;
+        text-align: center;
+    }
+
+    .navbar-brand img {
+        display: inline;
+        height: 50px;
+    }
+
+    .navbar-brand span {
+        font-size: 24px;
+        color: #5C7A4E;
+    }
+
+    .navbar-collapse ul{
+        height: 60px;
+        padding-left: 1%;
+    }
+
+    .navbar-collapse ul li {
+        margin-top: 0;
+        margin-right: 2%;
+        width: 90px;
+        font-size: 17px;
+    }
+
+    /*home-page*/
+    .carousel img {
+        padding-bottom: 60px;
+    }
+
+    #notice-ban {
+        margin: 0;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        font-size: 20px;
+    }
+
+    .carousel-caption {
+        padding: 0;
+        width: 84%;
+        padding-left: 8%;
+    }
+
+    .carousel-caption h1 {
+        margin: 15px 0;
+        padding: 0;
+        font-size: 30px;
+    }
+
+    .carousel-caption h2 {
+        margin-top: 20px;
+        margin-bottom: 45px;
+        padding: 0;
+        font-size: 26px;
+    }
+
+    .carousel-caption span {
+        padding-left: 10px;
+        width: 580px;
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .carousel .xct-btn {
+        margin-top: 70px;
+        padding: 0;
+    }
+
+    #whitepaper{
+        margin: 0;
+        padding: 8px 0 0 12px;
+        letter-spacing: 16px;
+        width: 140px;
+        height: 50px;
+        font-size: 22px;
+        background-color: #5C7A4E;
+    }
+
+    #apply {
+        display: none;
+    }
+
+    /* common parts */
+    .subtitle {
+        color: #5C7A4E;
+        font-size: 26px;
+        padding: 25px 40px;
+    }
+
+    .subtitle span {
+        border-bottom: 2px solid #5C7A4E;
+        padding-bottom: 3px;
+    }
+
+    /*about-page*/
+    .about-page {
+        margin: 0 auto;
+        padding: 60px 0;
+    }
+
+    .about-page .row {
+        margin-top: 45px;
+        margin-left: 0;
+    }
+
+    .about-page .about-bref {
+        margin: 0;
+        padding: 0;
+    }
+
+    .about-page .about-title-left {
+        padding-left: 20px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .about-page .center{
+        padding: 30px 0;
+    }
+
+    .about-page .center img{
+        width: 100%
+    }
+
+    .about-page .left-part {
+        padding: 30px 0 0 80px;
+    }
+
+    .about-page .left-part img {
+        margin: 0;
+        padding: 0;
+        width: 100%
+    }
+
+    .about-page .left-part ul {
+        margin: 0;
+        padding-left: 30px;
+        padding-bottom: 55px;
+    }
+
+    .about-page .left-part ul li {
+        padding-left: 0;
+        font-size: 16px;
+    }
+
+    .about-page .right-part {
+        padding: 15px 80px 0 0;
+        float: right;
+    }
+
+    .about-page .about-title-right {
+        padding-right: 25px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .about-page .right-part ul {
+        padding-right: 20px;
+        padding-bottom: 30px;
+    }
+
+    .about-page .right-part ul li {
+        padding-right: 0;
+        font-size: 16px;
+        width: 64px;
+    }
+
+    /*scenario-page*/
+    .scenario-page {
+        margin: 0 auto;
+        padding: 60px 0;
+        background: url(../images/bg031.png) no-repeat;
+        background-position: 0 270px;
+    }
+
+    .scenario-page .scenario-icons {
+        margin-top: 60px;
+        margin-left: 16px;
+    }
+
+    .scenario-page .icon1, .scenario-page .icon3 {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .scenario-page .icon1 {
+        padding-top: 45px;
+    }
+
+    .scenario-page .scenario-icons img {
+        width: 60%
+    }
+
+    .scenario-page .scenario-info {
+        padding: 0;
+        margin: 0;
+    }
+
+    .scenario-page .info {
+        padding: 0 20px 0 45px;
+    }
+
+    .scenario-page .scenario-bref {
+        display: block;
+        margin-top: 30px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .scenario-page .scenario-detail {
+        font-size: 16px;
+    }
+
+    /*route-page*/
+    .route-page {
+        margin: 0 auto;
+        padding: 60px 0;
+    }
+
+    .route-page img {
+        width: 100%;
+        padding-top: 60px;
+    }
+
+    .route-page .routes {
+        text-align: center;
+    }
+
+    .route-page .routes p {
+        padding-top: 15px;
+        font-size: 20px;
+    }
+
+
+    /*team-page*/
+    .team-page {
+        margin: 0 auto;
+        padding: 60px 0;
+    }
+
+    .team-page .row {
+        padding-top: 0;
+    }
+
+    .team-page .team-mem {
+        height: 480px;
+    }
+
+    .team-page .name {
+        padding: 10px 0;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .team-page .title {
+        font-size: 21px;
+        letter-spacing: 2px;
+        /*font-style: italic;*/
+        text-align: center;
+    }
+
+     .team-page .bref-bio {
+        padding: 15px 0;
+        font-size: 14px;
+    }
+
+    /*advisor-page*/
+    .advisor-page {
+        margin: 0 auto;
+        padding: 60px 0;
+    }
+
+    .advisor-page .row {
+        padding-top: 0;
+    }
+
+    .advisor-page .team-mem {
+        height: 560px;
+    }
+
+    .advisor-page .name {
+        padding: 10px 0;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .advisor-page .title {
+        font-size: 21px;
+        letter-spacing: 2px;
+        /*font-style: italic;*/
+        text-align: center;
+    }
+
+    .advisor-page .bref-bio {
+        padding: 15px 0;
+        font-size: 14px;
+        height: 230px;
+    }
+
+    /*community-page*/
+    .community-page {
+        margin: 60px auto;
+        padding: 70px 0;
+        background: url(../images/bg02.png) no-repeat; 
+        background-size:70%;
+        background-position:center center;
+        text-align: center;
+    }
+
+    .community-page .subscribe {
+        margin: 0;
+        padding: 10px 0 10px 0;
+    }
+
+    .community-page .subscribe .input-group {
+        padding: 20px 30px 0 30px;
+        height: 45px;
+    }
+
+    .community-page .form-control {
+        height: 45px;
+    }
+
+    .community-page .input-group-btn .sub-btn {
+        width: 100px;
+        height: 45px;
+        padding-left: 18px;
+        letter-spacing: 10px;
+        font-size: 20px;
+    }
+
+    .community-page .join {
+        padding-bottom: 10px;
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+
+    .community-page .icons {
+        padding-top: 10px;
+        padding-bottom: 200px;
+    }
+
+    .community-page img {
+        width: 45px;
+        margin: 0 10px;
+    }
+
+    /*TODO*/
+}
+@media only screen and (min-width: 480px) and (max-width: 767px){
+    body {
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+
+    /*navigation*/
+    .navbar .container {
+        margin-left: 0;
+        width: 98%;
+    }
+
+    #menu-nav {
+        height: 50px;
+        background-color: white;
+        vertical-align: middle;
+    }
+
+    .navbar-brand {
+        width: 120px;
+        height: 45px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .navbar-brand img {
+        padding-top: 0;
+        height: 30px;
+    }
+
+    .navbar-brand span {
+        font-size: 16px;
+        color: #5C7A4E;
+    }
+
+    #navbar-collapse {
+        padding: 0;
+        float: right;
+        overflow: visible;
+    }
+
+    #navbar-collapse ul {
+        margin: 0;
+        padding: 0 10px 0 10px;
+        width: 100px;
+        height: 200px;
+        float: right;
+        background: #000000;/*todo: change color*/
+    }
+
+    #navbar-collapse ul li {
+        margin: 0;
+        padding: 0;
+        width: 100px;
+        height: 35px;
+        font-size: 14px;
+        color: #5C7A4E;
+    }
+
+    #navbar-collapse .navbar-nav {
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar-collapse ul li a {
+        padding-right: 10px;
+    }
+
+    #nav-lang {
+        font-size: 14px;
+        margin-top: 5px;
+    } 
+
+    /*home-page*/
+    .carousel img {
+        padding-bottom: 45px;
+    }
+
+    #notice-ban {
+        margin: 0;
+        padding: 15px 0;
+        font-size: 16px;
+    }
+
+    .carousel-caption {
+        padding: 0;
+        width: 90%;
+        padding-left: 5%;
+    }
+
+    .carousel-caption h1 {
+        margin: 10px 0;
+        padding: 0;
+        font-size: 21px;
+    }
+
+    .carousel-caption h2 {
+        margin-top: 10px;
+        margin-bottom: 30px;
+        padding: 0;
+        font-size: 18px;
+    }
+
+    .carousel-caption span {
+        padding-left: 10px;
+        width: 480px;
+        font-size: 15px;
+        text-align: left;
+    }
+
+   .carousel .xct-btn {
+        margin-top: 60px;
+        padding: 0;
+    }
+
+    #whitepaper{
+        margin: 0;
+        padding: 6px 0 0 8px;
+        letter-spacing: 10px;
+        width: 120px;
+        height: 40px;
+        font-size: 18px;
+        background-color: #5C7A4E;
+    }
+
+    #apply {
+        display: none;
+    }
+
+    /* common parts */
+    .subtitle {
+        color: #5C7A4E;
+        font-size: 20px;
+        padding: 15px 30px;
+    }
+
+    .subtitle span {
+        border-bottom: 2px solid #5C7A4E;
+        padding-bottom: 2px;
+    }
+
+    /*about-page*/
+    .about-page {
+        margin: 0 auto;
+        padding: 45px 0;
+    }
+
+    .about-page .row {
+        margin-top: 45px;
+        margin-left: 0;
+    }
+
+    .about-page .about-bref {
+        margin: 0;
+        padding: 0;
+    }
+
+    .about-page .about-title-left {
+        padding-left: 15px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .about-page .center{
+        padding: 15px 0;
+    }
+
+    .about-page .center img{
+        width: 100%
+    }
+
+    .about-page .left-part {
+        padding: 20px 0 0 45px;
+    }
+
+    .about-page .left-part img {
+        margin: 0;
+        padding: 0;
+        width: 100%
+    }
+
+    .about-page .left-part ul {
+        margin: 0;
+        padding-left: 25px;
+        padding-bottom: 40px;
+    }
+
+    .about-page .left-part ul li {
+        font-size: 14px;
+    }
+
+    .about-page .right-part {
+        padding: 10px 45px 0 0;
+        float: right;
+    }
+
+    .about-page .about-title-right {
+        padding-right: 30px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .about-page .right-part ul {
+        float: right;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .about-page .right-part ul li {
+        width: 66px;
+        font-size: 14px;
+    }
+
+    /*scenario-page*/
+    .scenario-page {
+        margin: 0 auto;
+        padding: 45px 0;
+        background: url(../images/bg031.png) no-repeat;
+        background-position: 0 215px;
+    }
+
+    .scenario-page .scenario-icons {
+        margin-top: 45px;
+        margin-left: 16px;
+    }
+
+    .scenario-page .icon1, .scenario-page .icon3 {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .scenario-page .icon1 {
+        padding-top: 45px;
+    }
+
+    .scenario-page .scenario-icons img {
+        width: 70%
+    }
+
+    .scenario-page .scenario-info {
+        padding: 0;
+        margin: 0;
+    }
+
+    .scenario-page .info {
+        padding: 0 10px 0 40px;
+    }
+
+    .scenario-page .scenario-bref {
+        display: block;
+        margin-top: 20px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .scenario-page .scenario-detail {
+        font-size: 14px;
+    }
+
+    /*route-page*/
+    .route-page {
+        margin: 0 auto;
+        padding: 45px 0;
+    }
+
+    .route-page img {
+        width: 100%;
+        padding-top: 45px;
+    }
+
+    .route-page .routes {
+        text-align: center;
+    }
+
+    .route-page .routes p {
+        padding-top: 10px;
+        font-size: 18px;
+    }
+
+    /*team-page*/
+    .team-page {
+        margin: 0 auto;
+        padding: 45px 0;
+    }
+
+    .team-page .name {
+        padding: 10px 0;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .team-page .title {
+        font-size: 18px;
+        letter-spacing: 2px;
+        /*font-style: italic;*/
+        text-align: center;
+    }
+
+    .team-page .bref-bio {
+        padding: 15px 0;
+        font-size: 13px;
+    }
+
+    /*advisor-page*/
+    .advisor-page {
+        margin: 0 auto;
+        padding: 60px 0 120px 0;
+    }
+
+    .advisor-page .name {
+        padding: 10px 0;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .advisor-page .title {
+        font-size: 18px;
+        letter-spacing: 2px;
+        /*font-style: italic;*/
+        text-align: center;
+    }
+
+    .advisor-page .bref-bio {
+        padding: 15px 0;
+        font-size: 13px;
+    }
+
+    /*community-page*/
+    .community-page {
+        margin-top: 45px auto;
+        padding: 45px 0;
+        background: url(../images/bg02.png) no-repeat; 
+        background-size:90%;
+        background-position:center center;
+        text-align: center;
+    }
+
+    .community-page .subscribe {
+        margin: 0;
+        padding: 0 0 30px 0;
+    }
+
+    .community-page .subscribe .row {
+        margin: 0;
+        padding: 0;
+    }
+
+    .community-page .subscribe .input-group {
+        padding-top: 60px;
+        height: 60px;
+    }
+
+    .community-page .form-control {
+        height: 100%;
+    }
+
+    .community-page .input-group-btn .sub-btn {
+        width: 120px;
+        height: 100%;
+        padding-left: 18px;
+        letter-spacing: 10px;
+        font-size: 24px;
+    }
+
+    .community-page .join {
+        padding-top: 0;
+        padding-bottom: 20px;
+        font-size: 24px;
+        letter-spacing: 2px;
+    }
+
+    .community-page .icons {
+        padding-top: 10px;
+        padding-bottom: 210px;
+    }
+
+    .community-page img {
+        width: 60px;
+        margin: 0 15px;
+    }
+
+
+
+
+    /*TODO*/
+
+}
+
+@media only screen and (max-width: 479px) {
+    body {
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+
+    /*navigation*/
+    .navbar .container {
+        margin-left: 0;
+        width: 98%;
+    }
+    #menu-nav {
+        height: 50px;
+        background-color: white;
+        vertical-align: middle;
+    }
+
+    .navbar-brand {
+        width: 105px;
+        height: 45px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .navbar-brand img {
+        padding-top: 0;
+        height: 30px;
+    }
+
+    .navbar-brand span {
+        font-size: 16px;
+        color: #5C7A4E;
+    }
+
+    #navbar-collapse {
+        padding: 0;
+        float: right;
+        overflow: visible;
+    }
+
+    #navbar-collapse ul {
+        margin: 0;
+        padding: 0 10px 0 10px;
+        width: 68px;
+        height: 150px;
+        float: right;
+        background: #000000;/*todo: change color*/
+    }
+
+    #navbar-collapse ul li {
+        margin: 0;
+        padding: 0 0 20px 0;
+        width: 68px;
+        height: 25px;
+        font-size: 12px;
+        color: #5C7A4E;
+    }
+
+    #navbar-collapse .navbar-nav {
+        margin: 0;
+        padding: 0;
+    }
+
+    #navbar-collapse ul li a {
+        padding-right: 5px;
+    }
+
+    #nav-lang {
+        font-size: 12px;
+        margin-top: 5px;
+    } 
+
+    /*home-page*/
+    .carousel img {
+        padding-bottom: 30px;
+    }
+
+    #notice-ban {
+        margin: 0;
+        padding: 10px 0;
+        font-size: 16px;
+    }
+
+    .carousel-caption {
+        padding: 0;
+        width: 100%;
+    }
+
+    .carousel-caption h1 {
+        margin: 0;
+        padding: 0;
+        font-size: 18px;
+    }
+
+    .carousel-caption h2 {
+        margin-top: 10px;
+        margin-bottom: 15px;
+        padding: 0;
+        font-size: 16px;
+    }
+
+    .carousel-caption span {
+        padding-left: 10px;
+        width: 360px;
+        font-size: 6px;
+        text-align: left;
+    }
+
+    .carousel .xct-btn {
+        margin-top: 10px;
+        padding: 0;
+    }
+
+    #whitepaper{
+        margin: 0;
+        padding: 4px 0 0 5px;
+        letter-spacing: 6px;
+        width: 60px;
+        height: 25px;
+        font-size: 12px;
+        background-color: #5C7A4E;
+    }
+
+    #apply {
+        display: none;
+    }
+
+    /* common parts */
+    .subtitle {
+        color: #5C7A4E;
+        font-size: 18px;
+        padding: 15px 30px;
+    }
+
+    .subtitle span {
+        border-bottom: 2px solid #5C7A4E;
+        padding-bottom: 2px;
+    }
+
+    /*about-page*/
+    .about-page {
+        margin: 0 auto;
+        padding: 30px 0;
+    }
+
+    .about-page .row {
+        margin-top: 45px;
+        margin-left: 0;
+    }
+
+    .about-page .about-bref {
+        margin: 0;
+        padding: 0;
+    }
+
+    .about-page .about-title-left {
+        padding-left: 10px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .about-page .center{
+        padding: 28px 0;
+    }
+
+    .about-page .center img {
+        width: 100%
+    }
+
+    .about-page .left-part {
+        padding: 0 0 0 10px;
+    }
+
+    .about-page .left-part img {
+        margin: 0;
+        padding: 0;
+        width: 100%
+    }
+
+    .about-page .left-part ul {
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+
+    .about-page .left-part ul li {
+        padding: 0;
+        font-size: 10px;
+    }
+
+    .about-page .right-part {
+        padding: 0 10px 0 0;
+        float: right;
+    }
+
+    .about-page .about-title-right {
+        padding-right: 15px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .about-page .right-part ul {
+        float: right;
+        padding-right: 15px;
+        padding-bottom: 7px;
+    }
+
+    .about-page .right-part ul li {
+        padding: 0;
+        font-size: 10px;
+    }
+
+    /*scenario-page*/
+    .scenario-page {
+        margin: 0 auto;
+        padding: 30px 0;
+        background: url(../images/bg031.png) no-repeat;
+        background-position: 0 166px;
+    }
+
+    .scenario-page .scenario-icons {
+        margin-top: 45px;
+        margin-left: 16px;
+    }
+
+    .scenario-page .icon1, .scenario-page .icon3 {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .scenario-page .icon1 {
+        padding-top: 25px;
+    }
+
+    .scenario-page .scenario-icons img {
+        width: 70%
+    }
+
+    .scenario-page .scenario-info {
+        padding: 0 0 0 12px;
+        margin: 0;
+    }
+
+    .scenario-page .info {
+        padding: 0 12px 0 0;
+    }
+
+    .scenario-page .scenario-bref {
+        display: block;
+        margin-top: 20px;
+        padding: 0 0 5px 10px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .scenario-page .scenario-detail {
+        font-size: 8px;
+    }
+
+    /*route-page*/
+    .route-page {
+        margin: 0 auto;
+        padding: 30px 0;
+    }
+
+    .route-page img {
+        width: 100%;
+        padding-top: 45px;
+    }
+
+    .route-page .routes {
+        text-align: center;
+    }
+
+    .route-page .routes p {
+        font-size: 16px;
+    }
+
+    /*team-page*/
+    .team-page {
+        margin: 0 auto;
+        padding: 30px 0;
+    }
+
+    .team-page .row {
+        padding-top: 10px;
+    }
+
+    .team-page .team-mem {
+        height: 360px;
+    }
+    .team-page .name {
+        padding: 8px 0;
+        font-size: 10px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .team-page .title {
+        font-size: 10px;
+        letter-spacing: 2px;
+        /*font-style: italic;*/
+        text-align: center;
+    }
+
+    .team-page .bref-bio {
+        padding: 10px 0;
+        font-size: 10px;
+    }
+
+    /*advisor-page*/
+    .advisor-page {
+        margin: 0 auto;
+        padding: 30px 0;
+    }
+
+    .advisor-page .row {
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
+
+    .advisor-page .team-mem {
+        height: 460px;
+    }
+    .advisor-page .name {
+        padding: 8px 0;
+        font-size: 10px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .advisor-page .title {
+        font-size: 10px;
+        letter-spacing: 2px;
+        /*font-style: italic;*/
+        text-align: center;
+    }
+
+    .advisor-page .bref-bio {
+        padding: 10px 0;
+        font-size: 10px;
+        height: 200px;
+        overflow: scroll;
+    }
+
+    /*community-page*/
+    .community-page {
+        margin-top: 45px auto;
+        padding: 45px 10px;
+        background: url(../images/bg02.png) no-repeat; 
+        background-size:90%;
+        background-position:center center;
+        text-align: center;
+    }
+
+    .community-page .subscribe {
+        margin: 0;
+        padding: 0;
+    }
+
+    .community-page .subscribe .row {
+        margin: 0;
+        padding: 0;
+    }
+
+    .community-page .subscribe .input-group {
+        height: 30px;
+        padding-top: 5px;
+        padding-bottom: 0;
+    }
+
+    .community-page .form-control {
+        height: 30px;
+    }
+
+     .community-page .input-group-btn .sub-btn {
+        width: 50px;
+        height: 30px;
+        padding-top: 3px;
+        padding-left: 6px;
+        letter-spacing: 4px;
+        font-size: 16px;
+    }
+
+    .community-page .join {
+        padding-bottom: 10px;
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+
+    .community-page .icons {
+        padding-top: 5px;
+        padding-bottom: 100px;
+    }
+
+    .community-page img {
+        width: 35px;
+        margin: 0 8px;
+    }
+
+
+
+
+    /*TODO*/
+}
+
+
